@@ -1,0 +1,46 @@
+
+SHEETS
+{"qInfo":{"qId":"ERxLjTP","qType":"sheet"},"qMeta":{"title":"My new sheet","description":"","_resourcetype":"app.object","_objecttype":"sheet","id":"ERxLjTP","approved":false,"published":false,"owner":"daveatqlik@gmail.com","ownerId":"0GDe7nHIQDJuRf8_nDAbEfJ3PKh4rWBy","createdDate":"2024-09-03T20:43:28.834Z","modifiedDate":"2024-09-03T20:43:28.834Z","privileges":["read","update","delete","publish","change_owner"]},"qData":[]}
+
+OBJECTS ON SHEETS
+
+DIMENSIONS
+
+MASTER OBJECTS
+
+VARIABLES
+{"qName":"name","qDefinition":"VSP 2023","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"c49b32d9-eb83-403c-b835-cb4d8d9d55e0","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"index","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"3195b003-0612-4b0c-b5bd-db6cef3dcb23","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"currentName","qDefinition":"VSP 2023","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"ccf4ce31-5542-4a4c-8864-4bb4284d4649","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+{"qName":"matches","qDefinition":"0","qMeta":{"privileges":["read","update","delete"]},"qInfo":{"qId":"73b93ca0-eec8-4269-97ed-d983fd87d48f","qType":"variable"},"qData":[],"qIsScriptCreated":true}
+
+FIELDS
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Field","qCardinal":23,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Table","qCardinal":1,"qTags":["$key","$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Rows","qCardinal":1,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Fields","qCardinal":1,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$FieldNo","qCardinal":23,"qTags":["$hidden","$system","$numeric","$integer"],"qSrcTables":[]}
+{"qIsHidden":true,"qIsSystem":true,"qName":"$Info","qCardinal":1,"qTags":["$hidden","$system","$ascii","$text"],"qSrcTables":[]}
+{"qName":"Call Type","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"ORI","qCardinal":12,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Unique Indentifier","qCardinal":19242,"qTags":["$numeric","$integer"],"qSrcTables":["VSP 2023"]}
+{"qName":"Date\/Time","qCardinal":19902,"qTags":["$numeric","$timestamp"],"qDerivedFieldData":{"qDerivedFieldLists":[{"qDerivedDefinitionName":"autoCalendar","qFieldDefs":[{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:Year","qName":"Date\/Time.autoCalendar.Year","qMethod":"Year","qExpr":"=${autoCalendar(Date\/Time).Year}","qTags":["$axis","$year"]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:Quarter","qName":"Date\/Time.autoCalendar.Quarter","qMethod":"Quarter","qExpr":"=${autoCalendar(Date\/Time).Quarter}","qTags":["$quarter","$cyclic"]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:YearQuarter","qName":"Date\/Time.autoCalendar.YearQuarter","qMethod":"YearQuarter","qExpr":"=${autoCalendar(Date\/Time).YearQuarter}","qTags":["$yearquarter","$qualified"]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:Month","qName":"Date\/Time.autoCalendar.Month","qMethod":"Month","qExpr":"=${autoCalendar(Date\/Time).Month}","qTags":["$month","$cyclic"]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:YearMonth","qName":"Date\/Time.autoCalendar.YearMonth","qMethod":"YearMonth","qExpr":"=${autoCalendar(Date\/Time).YearMonth}","qTags":["$axis","$yearmonth","$qualified"]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:Week","qName":"Date\/Time.autoCalendar.Week","qMethod":"Week","qExpr":"=${autoCalendar(Date\/Time).Week}","qTags":["$weeknumber","$cyclic"]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:Date","qName":"Date\/Time.autoCalendar.Date","qMethod":"Date","qExpr":"=${autoCalendar(Date\/Time).Date}","qTags":["$axis","$date","$qualified"]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:InYTD","qName":"Date\/Time.autoCalendar.InYTD","qMethod":"InYTD","qExpr":"=${autoCalendar(Date\/Time).InYTD}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:YearsAgo","qName":"Date\/Time.autoCalendar.YearsAgo","qMethod":"YearsAgo","qExpr":"=${autoCalendar(Date\/Time).YearsAgo}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:InQTD","qName":"Date\/Time.autoCalendar.InQTD","qMethod":"InQTD","qExpr":"=${autoCalendar(Date\/Time).InQTD}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:QuartersAgo","qName":"Date\/Time.autoCalendar.QuartersAgo","qMethod":"QuartersAgo","qExpr":"=${autoCalendar(Date\/Time).QuartersAgo}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:QuarterRelNo","qName":"Date\/Time.autoCalendar.QuarterRelNo","qMethod":"QuarterRelNo","qExpr":"=${autoCalendar(Date\/Time).QuarterRelNo}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:InMTD","qName":"Date\/Time.autoCalendar.InMTD","qMethod":"InMTD","qExpr":"=${autoCalendar(Date\/Time).InMTD}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:MonthsAgo","qName":"Date\/Time.autoCalendar.MonthsAgo","qMethod":"MonthsAgo","qExpr":"=${autoCalendar(Date\/Time).MonthsAgo}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:MonthRelNo","qName":"Date\/Time.autoCalendar.MonthRelNo","qMethod":"MonthRelNo","qExpr":"=${autoCalendar(Date\/Time).MonthRelNo}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:InWTD","qName":"Date\/Time.autoCalendar.InWTD","qMethod":"InWTD","qExpr":"=${autoCalendar(Date\/Time).InWTD}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:WeeksAgo","qName":"Date\/Time.autoCalendar.WeeksAgo","qMethod":"WeeksAgo","qExpr":"=${autoCalendar(Date\/Time).WeeksAgo}","qTags":[]},{"qId":"25e24618-5065-4f68-8042-de8c9e4a3b19:WeekRelNo","qName":"Date\/Time.autoCalendar.WeekRelNo","qMethod":"WeekRelNo","qExpr":"=${autoCalendar(Date\/Time).WeekRelNo}","qTags":[]}],"qGroupDefs":[],"qTags":[]}]},"qSrcTables":["VSP 2023"]}
+{"qName":"Street Name\/Mile Marker","qCardinal":9548,"qTags":[],"qSrcTables":["VSP 2023"]}
+{"qName":"City","qCardinal":392,"qTags":[],"qSrcTables":["VSP 2023"]}
+{"qName":"Gender","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Issued To Age","qCardinal":83,"qTags":["$numeric","$integer"],"qSrcTables":["VSP 2023"]}
+{"qName":"Perceived Race","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Stop Based On","qCardinal":6,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Search Based On","qCardinal":4,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Ticket Outcome","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Contraband\/Evidence","qCardinal":3,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Passenger Search Based On","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Passenger Ticket Outcome","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Pass. Contraband\/Evidence","qCardinal":5,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"UOF Occurred","qCardinal":1,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Vehicle Make","qCardinal":193,"qTags":[],"qSrcTables":["VSP 2023"]}
+{"qName":"Vehicle Model","qCardinal":1272,"qTags":[],"qSrcTables":["VSP 2023"]}
+{"qName":"Vehicle Color","qCardinal":33,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Vehicle Year","qCardinal":82,"qTags":[],"qSrcTables":["VSP 2023"]}
+{"qName":"Vehicle Plate State","qCardinal":59,"qTags":["$ascii","$text"],"qSrcTables":["VSP 2023"]}
+{"qName":"Issued To State","qCardinal":115,"qTags":[],"qSrcTables":["VSP 2023"]}
